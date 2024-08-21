@@ -8,17 +8,19 @@ const Budget = ({ income = [], expenses = [] }) => {
   const balance = totalIncome - totalExpenses;
 
   return (
-    <div>
-      <h2>Budget</h2>
-      <input
-        type="number"
-        value={budget}
-        onChange={(e) => setBudget(e.target.value)}
-        placeholder="Set Budget"
-      />
-      <p>Income: ${totalIncome}</p>
-      <p>Expenses: ${totalExpenses}</p>
-      <p>Balance: ${balance}</p>
+    <div className="page-container">
+      <div className="budget-container">
+        <h2>Budget</h2>
+        <input
+          type="number"
+          value={budget}
+          onChange={(e) => setBudget(e.target.value)}
+          placeholder="Set Budget"
+        />
+        <p>Income: ${totalIncome}</p>
+        <p>Expenses: ${totalExpenses}</p>
+        <p>Balance: ${balance}</p>
+      </div>
     </div>
   );
 };

@@ -12,7 +12,7 @@ const Home = () => {
   const addIncome = (inc) => setIncome([...income, inc]);
 
   return (
-    <div>
+    <div className="home-container">
       <h1>Personal Finance Tracker</h1>
       <ExpenseForm addExpense={addExpense} />
       <IncomeForm addIncome={addIncome} />
