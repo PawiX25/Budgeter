@@ -45,3 +45,5 @@ Access the app at [http://localhost:3000](http://localhost:3000).
 - **`App.js`**: Main application component with routing.
 - **`components/`**: UI components like forms and lists.
 - **`pages/`**: Page components for different views.
+
+![Screenshot of the app](https://github.com/user-attachments/assets/e11bcbc4-79a4-4d91-8b4a-6f70257173ab)
